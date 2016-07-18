@@ -6,7 +6,7 @@
 		<sql>
 			CREATE TABLE apm_tag_details 
 			(
-			apm_id int,
+			apm_id int not null auto_increment primary key,
 			apm_service varchar(255),
 			amp_version varchar(255),
 			enabled bit
